@@ -103,35 +103,28 @@ textarea {
 
    }
    #logo {
-     display: inline-block;
-     float: left;
+     /*display: inline-block;*/
+     /*float: left;*/
+     text-align: center;
    }
 
    nav {
-     margin-right: 1.25em;
-     display: inline-block;
-     float: right;
+     /*margin: 1em;*/
+     /*margin-right: 1em;*/
+     text-align: center;
+     display: inline-flex;
+
    }
 
    nav a:link {
+     /*position: absolute;*/
        text-decoration: none;
        color: #000;
        font-family: "Helvetica Neue", sans-serif;
-       font-size: 1.4em;
+       font-size: 1em;
        font-weight: 200;
-       padding-left: 0.5em;
-     }
+       /*padding-left: 0.5em;*/
 
-
-     #about{
-       background-color: rgba(250,230, 220,0.8);
-       padding-bottom: 30em;
-     }
-     #about p {
-       font-family: "Helvetica Neue", sans-serif;
-       font-size: 2em;
-       margin-top: 0;
-       padding: 0.5em;
      }
 
 
@@ -143,11 +136,33 @@ textarea {
         ========================================================================== */
 
 
+             #about{
+               background-color: rgba(250,230, 220,0.8);
+               padding-bottom: 30em;
+             }
+             #about h1 {
+               font-family: "Helvetica Neue", sans-serif;
+               font-size: 2em;
+               margin-top: 0;
+               padding: 0.5em;
+             }
 
 
+      /* ==========================================================================
+          Third Section: Contact
+         ========================================================================== */
 
+         #contact{
+          background-color: rgba(210,220, 210,0.8);
+          padding-bottom: 30em;
+         }
 
-
+         #contact h1 {
+           font-family: "helvetica neue", sans-serif;
+           font-size: 2em;
+           margin-top: 0;
+           padding: 0.5em;
+         }
 
 
 
@@ -227,37 +242,67 @@ textarea {
 
 
    /* Desktop and iPad/Tablet specific styles. */
-   @media only screen and (min-width: 35em) {
-     nav a {
-       text-align: right;
+   @media only screen and (min-width : 1224px) {
+     header{
+       #logo {
+         display: inline-block;
+         float: left;
+       }
+
+       nav {
+         margin: 1em;
+         margin-right: 2em;
+         display: inline-block;
+         float: right;
+       }
      }
    }
+
+
+   /*Small Desktop or Laptop*/
+
 
    /* iPad/Tablet specific styles. */
    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-     nav a {
-       text-align: right;
-     }
+       #logo {
+         display: inline-block;
+         float: left;
+       }
+
+       nav {
+         margin: 1em;
+         margin-right: 2em;
+         display: inline-block;
+         float: right;
+         font-size: 1.45em;
+       }
+       header{
+         /*background-color: #13b6aa; /*blue*/
+       }
    }
 
-   /* iPad/Tablet landscape specific styles. */
-   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
-   }
-   /* iPad/Tablet portrait specific styles. */
-   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-
-   }
 
    /* Mobile specific styles */
    @media only screen and (max-width: 35em) {
      header{
        text-align: center;
+       display: block;
        padding: 1em;
        padding-bottom: 20em;
      }
+     #logo {
+       display: block;
+       text-align: center;
+     }
      nav{
+       display: block;
+       text-align: center;
        margin-top: 0.2em;
+     }
+     nav a:link{
+       display: block;
+       text-align: center;
+
      }
    }
 
