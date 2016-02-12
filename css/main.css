@@ -103,9 +103,9 @@ textarea {
      background-image: url(../img/swirlcode.png);
      background-repeat: no-repeat;
      background-position: center;
-
+     background-origin: border-box;
+     box-shadow: 3px;
    }
-
 
    #logo {
      text-align: center;
@@ -136,36 +136,65 @@ textarea {
 
 
      /* ==========================================================================
-        Second Section: About
+        Second Section: Projects
         ========================================================================== */
 
 
              #about{
-               background-color: rgba(220,230, 250,0.8);
-               padding-bottom: 30em;
+               background-color: rgba(16, 37, 62, 0.5);
+               padding-bottom: 10em;
+               background-origin: border-box;
+               box-shadow: 3px;
              }
              #about h1 {
                font-family: "Helvetica Neue", sans-serif;
-               font-size: 2em;
+               font-size: 2.5em;
+               font-weight: 100;
                margin-top: 0;
                padding: 0.5em;
+               color: #fff;
              }
 
+             #about-paragraph p {
+               margin-left: 1.5em;
+               margin-right: 2.5em;
+               text-align: justify;
+             }
+
+     /* ==========================================================================
+         Third Section: Projects
+        ========================================================================== */
+        #projects{
+          background-color: rgba(62, 37, 16, 0.5);
+          padding-bottom: 20em;
+          background-origin: border-box;
+          box-shadow: 3px;
+        }
+        #projects h1 {
+          font-family: "Helvetica Neue", sans-serif;
+          font-size: 2.5em;
+          font-weight: 100;
+          margin-top: 0;
+          padding: 0.5em;
+          color: #fff;
+        }
 
       /* ==========================================================================
-          Third Section: Contact
+          Fourth Section: Contact
          ========================================================================== */
 
          #contact{
-          background-color: rgba(210,220, 210,0.8);
+          background-color: rgba(37, 42, 27,0.8);
           padding-bottom: 30em;
          }
 
          #contact h1 {
-           font-family: "helvetica neue", sans-serif;
-           font-size: 2em;
+           font-family: "Helvetica Neue", sans-serif;
+           font-size: 2.5em;
+           font-weight: 100;
            margin-top: 0;
            padding: 0.5em;
+           color: #fff;
          }
 
 
@@ -257,6 +286,10 @@ textarea {
        #logo {
          display: inline-block;
          float: left;
+       }
+
+       header{
+         padding-bottom: 50em;
        }
 
        nav {
