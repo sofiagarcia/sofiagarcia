@@ -103,14 +103,12 @@ textarea {
 
    }
    #logo {
-     /*display: inline-block;*/
-     /*float: left;*/
      text-align: center;
    }
 
    nav {
-     /*margin: 1em;*/
-     /*margin-right: 1em;*/
+     margin: 1em;
+     margin-right: 1em;
      text-align: center;
      display: inline-flex;
 
@@ -121,9 +119,9 @@ textarea {
        text-decoration: none;
        color: #000;
        font-family: "Helvetica Neue", sans-serif;
-       font-size: 1em;
+       font-size: 1.25em;
        font-weight: 200;
-       /*padding-left: 0.5em;*/
+       padding-left: 0.6em;
 
      }
 
@@ -241,9 +239,15 @@ textarea {
 }
 
 
+/* ==========================================================================
+   ! MEDIA QUERY !
+   ========================================================================== */
+
+/*
+
    /* Desktop and iPad/Tablet specific styles. */
-   @media only screen and (min-width : 1224px) {
-     header{
+   @media only screen and (min-width : 850px) {
+
        #logo {
          display: inline-block;
          float: left;
@@ -254,8 +258,8 @@ textarea {
          margin-right: 2em;
          display: inline-block;
          float: right;
+         font-size: 1.42em
        }
-     }
    }
 
 
@@ -274,7 +278,7 @@ textarea {
          margin-right: 2em;
          display: inline-block;
          float: right;
-         font-size: 1.45em;
+         font-size: 1.45em
        }
        header{
          /*background-color: #13b6aa; /*blue*/
@@ -284,26 +288,7 @@ textarea {
 
    /* Mobile specific styles */
    @media only screen and (max-width: 35em) {
-     header{
-       text-align: center;
-       display: block;
-       padding: 1em;
-       padding-bottom: 20em;
-     }
-     #logo {
-       display: block;
-       text-align: center;
-     }
-     nav{
-       display: block;
-       text-align: center;
-       margin-top: 0.2em;
-     }
-     nav a:link{
-       display: block;
-       text-align: center;
 
-     }
    }
 
 
