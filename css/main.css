@@ -95,12 +95,10 @@ textarea {
 /* ==========================================================================
    First Section: Header
    ========================================================================== */
-   body {
 
-
-   }
    header {
      padding: 1em;
+     position: relative;
      padding-bottom: 44em;
      background-image: url(../img/swirlcode.png);
      background-repeat: no-repeat;
