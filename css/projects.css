@@ -15,7 +15,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
     font-family: "Helvetica Neue", sans-serif;
-
 }
 
 /*
@@ -96,21 +95,7 @@ textarea {
 /* ==========================================================================
    First Section: Header
    ========================================================================== */
-body {
-  background-image: url(../img/swirlcode.png);
-  background-position: 50% -50%;
-  background-repeat: no-repeat;
 
-}
-   header {
-     padding: 1em;
-     /*position: relative;*/
-     /*padding-bottom: 5em;*/
-     /*background-repeat: no-repeat;
-     background-position: center;
-     background-origin: border-box;
-     box-shadow: 3px;*/
-   }
 
    #logo {
      text-align: center;
@@ -126,7 +111,6 @@ body {
    }
 
    nav a:link {
-     /*position: absolute;*/
        text-decoration: none;
        color: #000;
        font-family: "Helvetica Neue", sans-serif;
@@ -141,37 +125,12 @@ body {
 
 
      /* ==========================================================================
-        Second Section: about
+        Second Section: Projects
         ========================================================================== */
 
-
-             #about{
-               background-color: rgba(16, 37, 62, 0.5);
-               padding-bottom: 10em;
-               background-origin: border-box;
-               box-shadow: 3px;
-             }
-             #about h1 {
-               font-family: "Helvetica Neue", sans-serif;
-               font-size: 2.5em;
-               font-weight: 100;
-               margin-top: 0;
-               padding: 0.5em;
-               color: #fff;
-             }
-
-             #about-paragraph p {
-               margin-left: 1.5em;
-               margin-right: 2.5em;
-               text-align: justify;
-             }
-
-     /* ==========================================================================
-         Third Section: Projects
-        ========================================================================== */
-        /*#projects{
+        #projects{
           background-color: rgba(138, 56, 56, 0.5);
-          padding-bottom: 20em;
+          /*padding-bottom: 20em;*/
           background-origin: border-box;
           box-shadow: 3px;
         }
@@ -190,7 +149,7 @@ body {
          padding-bottom: 25%;
          background: #fff;
          /*color: #FFF;*/
-         /*position: relative;
+         position: relative;
          margin-left: 5em;
          border-radius: 4px;
     }
@@ -209,11 +168,7 @@ body {
          top: 20px;
          bottom: 20px;
          background: #fff;
-      }*/
-
-      /* ==========================================================================
-          Fourth Section: Contact
-         ========================================================================== */
+      }
 
 
 
@@ -306,10 +261,6 @@ body {
          float: left;
        }
 
-       header{
-         /*padding-bottom: 50em;*/
-       }
-
        nav {
          margin: 1em;
          margin-right: 2em;
@@ -338,7 +289,7 @@ body {
          font-size: 1.45em
        }
        header{
-         /*background-color: #13b6aa; /*blue*/
+
        }
    }
 

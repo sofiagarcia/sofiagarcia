@@ -15,7 +15,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
     font-family: "Helvetica Neue", sans-serif;
-
 }
 
 /*
@@ -96,20 +95,16 @@ textarea {
 /* ==========================================================================
    First Section: Header
    ========================================================================== */
-body {
-  background-image: url(../img/swirlcode.png);
-  background-position: 50% -50%;
-  background-repeat: no-repeat;
 
-}
    header {
      padding: 1em;
-     /*position: relative;*/
-     /*padding-bottom: 5em;*/
-     /*background-repeat: no-repeat;
+     position: relative;
+     padding-bottom: 40em;
+     background-image: url(../img/swirlcode.png);
+     background-repeat: no-repeat;
      background-position: center;
      background-origin: border-box;
-     box-shadow: 3px;*/
+     box-shadow: 3px;
    }
 
    #logo {
@@ -169,7 +164,7 @@ body {
      /* ==========================================================================
          Third Section: Projects
         ========================================================================== */
-        /*#projects{
+        #projects{
           background-color: rgba(138, 56, 56, 0.5);
           padding-bottom: 20em;
           background-origin: border-box;
@@ -190,7 +185,7 @@ body {
          padding-bottom: 25%;
          background: #fff;
          /*color: #FFF;*/
-         /*position: relative;
+         position: relative;
          margin-left: 5em;
          border-radius: 4px;
     }
@@ -209,11 +204,25 @@ body {
          top: 20px;
          bottom: 20px;
          background: #fff;
-      }*/
+      }
 
       /* ==========================================================================
           Fourth Section: Contact
          ========================================================================== */
+
+         #contact{
+          background-color: rgba(37, 42, 27,0.8);
+          padding-bottom: 30em;
+         }
+
+         #contact h1 {
+           font-family: "Helvetica Neue", sans-serif;
+           font-size: 2.5em;
+           font-weight: 100;
+           margin-top: 0;
+           padding: 0.5em;
+           color: #fff;
+         }
 
 
 
@@ -307,7 +316,7 @@ body {
        }
 
        header{
-         /*padding-bottom: 50em;*/
+         padding-bottom: 50em;
        }
 
        nav {
