@@ -17,6 +17,8 @@ html {
     font-family: "Helvetica Neue", sans-serif;
 }
 
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -95,7 +97,9 @@ textarea {
 /* ==========================================================================
    First Section: Header
    ========================================================================== */
-
+   #header {
+     background-color: rgba(138, 56, 56, 0.5);
+   }
 
    #logo {
      text-align: center;
@@ -103,7 +107,7 @@ textarea {
    }
 
    nav {
-     margin: 1em;
+     /*margin: 1em;*/
      margin-right: 1em;
      text-align: center;
      display: inline-flex;
@@ -130,7 +134,6 @@ textarea {
 
         #projects{
           background-color: rgba(138, 56, 56, 0.5);
-          /*padding-bottom: 20em;*/
           background-origin: border-box;
           box-shadow: 3px;
         }
@@ -288,9 +291,7 @@ textarea {
          float: right;
          font-size: 1.45em
        }
-       header{
 
-       }
    }
 
 
